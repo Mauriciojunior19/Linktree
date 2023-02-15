@@ -1,0 +1,121 @@
+title {
+    display: none;
+}
+
+header .user img {
+    border-radius: 50%;
+    margin-bottom: 12px;
+    box-shadow: 0px 0px 24px rgb(0 87 255 / 35%);
+    background-color: rgba(0,87,255,.2);
+    z-index: 2;
+}
+
+header .user strong {
+    font-size: 15px;
+}
+
+body {
+    font-family: "Raleway",sans-serif;
+    background: url(../../img/background-line.svg),radial-gradient(50% 70% at 50% 50%, #1a1845 0%, #000511 100%);
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+    position: relative;
+    z-index: 1;
+    margin-top: 32px;
+    overflow: hidden;
+}
+
+header .user {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+main {
+    display: block;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 8px 24px 24px;
+    position: relative;
+    z-index: 2;
+}
+
+.container h1 {
+    text-align: center;
+    line-height: 1.2;
+    position: relative;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 40px;
+    vertical-align: baseline;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 5%;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.links .link {
+    display: flex;
+    width: 400px;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(29,43,96,.5);
+    box-shadow: 0px 8px 48px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(14px);
+    border-radius: 12px;
+    padding: 16px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 150ms;
+    border-image: linear-gradient(to bottom, red, blue) 1 100%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+
+.links .link .info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6rem;
+}
+
+.divider {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: .6875rem;
+    padding: 16px 0;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    font-size: .8125rem;
+    color: rgba(255,255,255,.6);
+}
